@@ -1,5 +1,5 @@
 # Jed-NCA: Jed's Number Classification API
-▶️ This API classifies a given number and returns its mathematical properties along with a fun fact
+▶️ This API classifies a given number and returns its mathematical properties along with a fun fact <br>
 ▶️ This API is written in Go
 
 ## Setup Instructions
