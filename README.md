@@ -48,3 +48,5 @@ curl "https://localhost:8080/api/classify-number?number=371"
 ```
 ## Deployment
 The API is deployed and hosted on Railway. You can access it at:
+`https://jed-nca-production.up.railway.app/api/classify-number?number=x`
+Once again, please replace `x` with a number of your choice
