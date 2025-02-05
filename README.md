@@ -23,6 +23,8 @@ go run main.go
 ```bash
 curl "http://localhost:8080/api/classify-number?number=22"
 ```
+Or, going to `http://localhost:8080/api/classify-number?number=22` with your browser of choice
+Take note: `x` can be replaced with any number of your choice
 
 ### Endpoint
 `GET /api/classify-number?number=<number>`
