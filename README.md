@@ -24,7 +24,7 @@ go run main.go
 curl "http://localhost:8080/api/classify-number?number=x"
 ```
 Or, going to `http://localhost:8080/api/classify-number?number=x` with your browser of choice
-Take note: `x` can be replaced with any number of your choice
+Take note: `x` can be replaced with any integer of your choice
 
 ### Endpoint
 `GET /api/classify-number?number=<number>`
@@ -47,7 +47,8 @@ curl "https://localhost:8080/api/classify-number?number=371"
 }
 ```
 ## Deployment
-The API is deployed and hosted on Railway. You can access it at:
+The API is deployed and hosted on Railway. You can access it at:<br>
+
 `https://jed-nca-production.up.railway.app/api/classify-number?number=x`
 
-Once again, please replace `x` with a number of your choice
+Once again, please replace `x` with a integer of your choice
