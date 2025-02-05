@@ -21,9 +21,9 @@ go run main.go
 ```
 4. Access the API at port 8080, appending "/api/classify-number?number=x" at the end by either using curl:
 ```bash
-curl "http://localhost:8080/api/classify-number?number=22"
+curl "http://localhost:8080/api/classify-number?number=x"
 ```
-Or, going to `http://localhost:8080/api/classify-number?number=22` with your browser of choice
+Or, going to `http://localhost:8080/api/classify-number?number=x` with your browser of choice
 Take note: `x` can be replaced with any number of your choice
 
 ### Endpoint
@@ -32,7 +32,7 @@ Take note: `x` can be replaced with any number of your choice
 ## Example request
 
 ```bash
-curl "https://your-app.herokuapp.com/api/classify-number?number=371"
+curl "https://localhost:8080/api/classify-number?number=371"
 ```
 ## Example response
 
@@ -46,3 +46,5 @@ curl "https://your-app.herokuapp.com/api/classify-number?number=371"
     "fun_fact": "371 is an Armstrong number because 3^3 + 7^3 + 1^3 = 371"
 }
 ```
+## Deployment
+The API is deployed and hosted on Railway. You can access it at:
